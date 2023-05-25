@@ -11,7 +11,26 @@
 .global _start /* Specify global symbol */
 _start:
 
-stop:
-	nop
-	bal stop
-.end
+    ldr sp,=0x40001000
+
+    bl Subroutine1
+
+  stop:
+  	nop
+  	bal stop
+
+  Subroutine1:
+
+    stmfd sp!, {r7, lr}
+
+    bl Subroutine2
+
+    ldmfd sp!, {r7, pc}
+  
+
+  Subroutine2:
+
+    stmfd sp!, {r7, lr}
+    ldmfd sp!, {r7, pc}
+
+  .end
