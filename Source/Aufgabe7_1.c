@@ -39,6 +39,8 @@ nibble 4bit
   //printf("d: %Ix \n", d);
   //printf("mask: %Ix \n", mask);
 
+  for (int i = 0; i < 10; i++) {i--;}
+
 }
 
 
