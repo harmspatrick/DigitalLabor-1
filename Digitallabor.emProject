@@ -289,11 +289,20 @@
       <file file_name="Source/Aufgabe5_1.s">
         <configuration Name="Debug" build_exclude_from_build="Yes" />
       </file>
+      <file file_name="Source/Aufgabe5_1Steffi.s">
+        <configuration Name="Debug" build_exclude_from_build="Yes" />
+      </file>
       <file file_name="Source/Aufgabe5_2.s">
-        <configuration Name="Debug" build_exclude_from_build="No" />
+        <configuration Name="Debug" build_exclude_from_build="Yes" />
+      </file>
+      <file file_name="Source/Aufgabe5_2Steffi.s">
+        <configuration Name="Debug" build_exclude_from_build="Yes" />
       </file>
       <file file_name="Source/Aufgabe5_3.s">
         <configuration Name="Debug" build_exclude_from_build="Yes" />
+      </file>
+      <file file_name="Source/Aufgabe5_3Steffi.s">
+        <configuration Name="Debug" build_exclude_from_build="No" />
       </file>
     </folder>
     <folder Name="System">
@@ -385,9 +394,11 @@
         <configuration Name="Debug" build_exclude_from_build="Yes" />
       </file>
       <file file_name="Source/Aufgabe7_3.c">
+        <configuration Name="Debug" build_exclude_from_build="No" />
+      </file>
+      <file file_name="Source/Fakultaet.c">
         <configuration Name="Debug" build_exclude_from_build="Yes" />
       </file>
-      <file file_name="Fakultaet.c" />
       <file file_name="Source/LPC21XX.H">
         <configuration Name="Debug" build_exclude_from_build="Yes" />
       </file>

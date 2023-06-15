@@ -34,7 +34,7 @@ int main(void) {
     int time = 0xA0000;
     
     //Outerloop
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 100; i++) {
       IOSET1 = LED_0_bm ;
       delay(time);
       IOCLR1 = LED_0_bm ;

@@ -28,6 +28,7 @@
 #define LED_7_bm (1 << 23)
 
 #define BTN_0_bm (1 << 10) // Position des Tasters in dem Port definieren
+// Button_1 =  0x00000400
 #define BTN_1_bm (1 << 11)
 #define BTN_2_bm (1 << 12)
 #define BTN_3_bm (1 << 13)
@@ -113,16 +114,18 @@ int main(void) {
     int time = 0xA0000;
     
     //Outerloop
-    for (int i = 0; i < 10; i++) {
+    //for (int i = 0; i < 50; i++) {
+    while(1){
+
 
       leftToRight(time);
       
-      if (IOPIN0 & BTN_0_bm) {
+      if (!(IOPIN0 & BTN_0_bm)) {
         rightToLeft(time);
       }
       
     }
-    
+    //}
 
 }
 

@@ -1,10 +1,7 @@
 <!DOCTYPE CrossStudio_Session_File>
 <session>
  <Bookmarks/>
- <Breakpoints groups="Breakpoints" active_group="Breakpoints">
-  <BreakpointListItem trigger="" line="32" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="4" filename="Source/Aufgabe7_1.c" useHWbreakpoint="false"/>
-  <BreakpointListItem trigger="" line="34" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="4" filename="Source/Aufgabe7_1.c" useHWbreakpoint="false"/>
- </Breakpoints>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints"/>
  <ExecutionProfileWindow/>
  <FrameBuffer>
   <FrameBufferWindow width="0" keepAspectRatio="0" zoomToFitWindow="0" addressSpace="" format="0" height="0" autoEvaluate="0" scaleFactor="1" refreshPeriod="0" name="Executable_1_Debug" addressText="" accessByDisplayWidth="0"/>
@@ -63,15 +60,8 @@
  </Memory4>
  <Project>
   <ProjectSessionItem path="Digitallabor"/>
-  <ProjectSessionItem path="Digitallabor;Aufgabe1"/>
-  <ProjectSessionItem path="Digitallabor;Aufgabe1;Source"/>
   <ProjectSessionItem path="Digitallabor;Aufgabe5"/>
   <ProjectSessionItem path="Digitallabor;Aufgabe5;Source"/>
-  <ProjectSessionItem path="Digitallabor;Aufgabe5;System"/>
-  <ProjectSessionItem path="Digitallabor;Aufgabe7"/>
-  <ProjectSessionItem path="Digitallabor;Aufgabe7;Setup"/>
-  <ProjectSessionItem path="Digitallabor;Aufgabe7;Source"/>
-  <ProjectSessionItem path="Digitallabor;Aufgabe7;System"/>
  </Project>
  <Register1>
   <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="Executable_1_Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
@@ -136,12 +126,9 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="18" useTextEdit="1" path="Source/Aufgabe5_1.s" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="4" y="57" useTextEdit="1" path="Source/Aufgabe5_2.s" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="23" useTextEdit="1" path="Source/Aufgabe5_3.s" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="65" y="72" useTextEdit="1" path="Source/LPC21XX.H" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="20" y="11" useTextEdit="1" path="Source/Aufgabe7_1.c" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="16" y="119" useTextEdit="1" path="Source/Aufgabe7_3.c" left="0" selected="1" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="18" useTextEdit="1" path="Source/Aufgabe5_1Steffi.s" left="0" top="5" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="19" useTextEdit="1" path="Source/Aufgabe5_2Steffi.s" left="0" top="1" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="13" useTextEdit="1" path="Source/Aufgabe5_3Steffi.s" left="0" selected="1" top="43" codecName="Default"/>
  </Files>
- <EMStudioWindow activeProject="Aufgabe7" fileDialogDefaultFilter="*.asm;*.s;*.inc" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/hs/dtl/EmbeddedStudio/Source" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <EMStudioWindow activeProject="Aufgabe5" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="/Users/ph/Developer/DigitalLabor-1/Fakultaet.c&#xa;/Users/ph/Developer/DigitalLabor-1/Source/Fakultaet.c" fileDialogInitialDirectory="/Users/ph/Developer/DigitalLabor-1/Source" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>
